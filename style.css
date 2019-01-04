@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke ;
+    background-color: whitesmoke;
 }
 
 p{
@@ -35,8 +35,9 @@ nav{
 }
 
 ul {
-    overflow: none;
-    list-style-type: none;
+    display: inherit ;
+    overflow: visible;
+    list-style-type: inherit ;
 
 }
 
@@ -73,14 +74,14 @@ li.active a {
     font-size: 30px;
 }
 .Collumns2{
-    column-span: auto;
+    column-span: none;
 
 }
 .Collumntop{
     font-size: 14px;
     line-height: 20px;
     width: 20%;
-    display: inline-block;
+    display: inline-block ;
     padding: 2%;
     vertical-align: top;
     transition: all .7s;
@@ -132,8 +133,42 @@ li.active a {
 }
 body img
 {
-    column-span: auto;
+    column-span: all;
     width: 100%;
     height: 125%;
 }
 
+.backtotop
+{
+    text-transform: uppercase ;
+    text-decoration: none ; 
+    color: rgb(223, 17, 17); 
+    font: 15px/1 Helvetica, Verdana, sans-serif;
+    line-height: 20px;
+    width:10%;
+    padding: 1%;
+    vertical-align: top;
+    transition: all .7s;
+    float: right ;
+}
+
+.backtotop:hover
+{
+    color: #aaa ;
+}
+
+.footer
+{
+    text-align: center ;
+    border-top: 1px #000 ;
+    border-right: 0px ;
+    border-bottom: 0px ;
+    border-left: 0px ;
+    border-style: solid ;
+}
+
+.footershape
+{
+    display: inline-flex;
+    
+}
