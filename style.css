@@ -32,7 +32,6 @@ header{
 nav{
     border-bottom: solid 1px #111;
     border-top: solid 1px #111; 
-    overflow: none;
 }
 
 ul {
@@ -61,8 +60,8 @@ li a:hover {
     color: #aaa; /* This will change the colour of the font to this set colour when it's hovered over */
 }
 li.active a {
-    font-style: bold; /* This sets the font-style to bold */ 
     color: black; 
+    font-weight: 525 ; 
 }
 
 .Content{
