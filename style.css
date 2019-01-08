@@ -109,6 +109,18 @@ li.active a {
     margin-bottom: 20px ;
 }
 
+.Columnthick47borderless{
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 47%;
+    padding: 2%;
+    vertical-align: top;
+    transition: all .7s;
+    margin-bottom: 20px ;
+    
+}
+
 .Columnthick47borderlessmiddle{
     font-size: 14px;
     line-height: 20px;
