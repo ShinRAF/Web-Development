@@ -1,30 +1,31 @@
 body{
-    background-color: whitesmoke;
+    background-color: whitesmoke;  /* This sets the background colour to whitesmoke */ 
 }
 
 p{
-    display: block;
-    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    display: block; 
+    text-align: justify; /* This makes sure that the text alignment in the content fill out the whole collumn */
 }
 h1{
-    order: -1;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-size: 80px;
+    font-family: 'Playfair Display', serif; 
+    font-weight: 400; /* This sets that font thickness */
+    font-size: 80px; /* This sets the font size */ 
     float: none;
     margin: 0; 
-    text-align: center;
+    text-align: center; /* This sets the headings into the center of if its box/area */
     padding: 1px; 
-    border-top: 1px solid; 
+    border-top: 1px solid; /* Makes a line because of the "1px solid" on the borders */ 
 
 }
 header{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 120px;
+    font-size: 80px;
     float: left;
-    padding: 10px;
-    border-right: solid 1px #000;
+    padding: 24px;
+    border-right: solid 1px ;
     
 }
 
@@ -35,7 +36,7 @@ nav{
 }
 
 ul {
-    display: inherit ;
+    display: inherit ; 
     overflow: visible;
     list-style-type: inherit ;
 
@@ -49,18 +50,18 @@ li {
 }
 
 li a {
-    text-decoration: none;
-    color: rgb(223, 17, 17); 
-    font: 25px/1 Helvetica, Verdana, sans-serif;
-    text-transform: uppercase ;
-    transition: all 0.5s ease;
-    text-align: right; 
+    text-decoration: none; /* This removes the underline on the hyperlinks */
+    color: rgb(223, 17, 17); /* This sets the colour of the neutral link */
+    font: 20px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase ; /* This transfroms the text into uppercare */
+    transition: all 0.5s ease; /* ? */
+    text-align: right; /* This sets the text to the right */ 
 }
 li a:hover {
-    color: #aaa;
+    color: #aaa; /* This will change the colour of the font to this set colour when it's hovered over */
 }
 li.active a {
-    font-style: bold;
+    font-style: bold; /* This sets the font-style to bold */ 
     color: black; 
 }
 
@@ -73,22 +74,43 @@ li.active a {
     text-align: center;
     font-size: 30px;
 }
-.Collumns2{
-    column-span: none;
+/* Columns */
 
-}
-.Collumntop{
+.Columnthin{
     font-size: 14px;
     line-height: 20px;
-    width: 20%;
+    width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
     display: inline-block ;
-    padding: 2%;
+    padding: 2%; 
     vertical-align: top;
     transition: all .7s;
     border-right: solid 1px #000;
     margin-bottom: 20px ;
 }
-.Collumnsidetop{
+.Columnthinborderleft{
+    font-size: 14px;
+    line-height: 20px;
+    width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
+    display: inline-block ;
+    padding: 2%; 
+    vertical-align: top;
+    transition: all .7s;
+    border-left: solid 1px #000;
+    margin-bottom: 20px ;
+}
+
+.Columnthinborderless{
+    font-size: 14px;
+    line-height: 20px;
+    width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
+    display: inline-block ;
+    padding: 2%; 
+    vertical-align: top;
+    transition: all .7s;
+    margin-bottom: 20px ;
+}
+
+.Columnthick47borderless{
     font-size: 14px;
     line-height: 20px;
     width:47%;
@@ -98,7 +120,20 @@ li.active a {
     transition: all .7s;
     margin-bottom: 20px ;
 }
-.Collumnbottom{
+
+.Columnthick47borderright{
+    font-size: 14px;
+    line-height: 20px;
+    width:47%;
+    display: inline-block;
+    padding: 2%;
+    vertical-align: top;
+    transition: all .7s;
+    margin-bottom: 20px ;
+    border-right: #000 solid 1px ;
+}
+
+.Columnthrees{
     font-size: 14px;
     line-height: 20px;
     width: 30%;
@@ -109,7 +144,31 @@ li.active a {
     border-right: solid 1px #000;
     margin-bottom: 20px ;
 }
-.Collumnsidebottom{
+
+.Columntwo{
+    font-size: 14px;
+    line-height: 20px;
+    width: 47%;
+    display: inline-block;
+    padding: 1%;
+    vertical-align: top;
+    transition: all .7s;
+    border-right: solid 1px #000;
+    margin-bottom: 20px ;
+}
+
+.Columntwoborderless{
+    font-size: 14px;
+    line-height: 20px;
+    width: 48%;
+    display: inline-block;
+    padding: 1%;
+    vertical-align: top;
+    transition: all .7s;
+    margin-bottom: 20px ;
+}
+
+.Columnthreesborderless{
     font-size: 14px;
     line-height: 20px;
     width:30%;
@@ -120,17 +179,35 @@ li.active a {
     margin-bottom: 20px ;
 }
 
-.Collumn2{
+.Columnthinborderleft{
     font-size: 14px;
     line-height: 20px;
-    width: 50%;
-    display: inline-block;
-    padding: 1%;
+    width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
+    display: inline-block ;
+    padding: 2%; 
     vertical-align: top;
     transition: all .7s;
-    border-right: solid 1px #000;
+    border-left: solid 1px #000;
     margin-bottom: 20px ;
 }
+
+.Columnmiddle{
+    font-size: 14px;
+    line-height: 20px;
+    width:47%;
+    display: inline-block;
+    padding: 2%;
+    vertical-align: top;
+    transition: all .7s;
+    margin-bottom: 20px ;
+}
+
+.columnnobox{
+    text-align: center
+
+}
+
+
 body img
 {
     column-span: all;
@@ -171,4 +248,8 @@ body img
 {
     display: inline-flex;
     
+}
+
+.videos{
+    width: 200%; 
 }
