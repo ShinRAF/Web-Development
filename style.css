@@ -109,27 +109,27 @@ li.active a {
     margin-bottom: 20px ;
 }
 
-.Columnthick47borderless{
+.Columnthick47borderlessmiddle{
     font-size: 14px;
     line-height: 20px;
     width:47%;
     display: inline-block;
-    padding: 2%;
+    padding-left: 325px;
     vertical-align: top;
     transition: all .7s;
     margin-bottom: 20px ;
+    
 }
 
 .Columnthick47borderright{
     font-size: 14px;
     line-height: 20px;
-    width:47%;
     display: inline-block;
     padding: 2%;
     vertical-align: top;
     transition: all .7s;
     margin-bottom: 20px ;
-    border-right: #000 solid 1px ;
+    
 }
 
 .Columnthrees{
@@ -211,6 +211,12 @@ body img
     height: 125%;
 }
 
+iframe
+    {
+width: 100%;
+    }
+
+
 .backtotop
 {
     text-transform: uppercase ;
@@ -246,6 +252,65 @@ body img
     
 }
 
-.videos{
-    width: 200%; 
+
+@media (min-width:1000px){
+    p{
+        font-size: 100%;
+    }
+
+}
+
+@media (max-width:411px){
+    p{
+        font-size: 110%;
+    }
+    .Columnthin{
+        width: 43%;
+    }
+    .Columnthinborderless
+    {
+        width: 46%;
+    }
+    .Columnthick47borderless
+    {
+        width: 100%;
+    }
+    .footershape    
+    {
+        display: inline-block
+    }
+    body img
+    {
+        width: 100%;
+    }
+    header{
+        font-size: 65px;
+    }
+    li a
+    {
+        font-size: 15px
+    }
+    h1{
+        font-size: 70px;
+    }
+    .Columntwoborderless
+    {
+        width: 46%
+    
+    }
+
+    .Columnthick47borderright
+    {
+
+        width: 100%;
+    }
+    .Columnthinborderleft
+    {
+        width: 46%;
+        border-style: none;
+    }
+    .Columnthinborderless
+    {
+        width: 44%;
+    }
 }
