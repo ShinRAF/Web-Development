@@ -88,6 +88,8 @@ li.active a {
     padding: 2%; 
     border-right: solid 1px #000;
     margin-bottom: 20px ;
+    transition: 0.7s ;
+    vertical-align: top ;
 }
 .Columnthinborderleft{
     font-size: 14px;
@@ -98,6 +100,7 @@ li.active a {
     border-left: solid 1px #000;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columnthinborderless{
@@ -108,6 +111,7 @@ li.active a {
     padding: 2%; 
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columnthick47borderless{
@@ -118,6 +122,7 @@ li.active a {
     padding: 2%;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columnthick47borderlessmiddle{
@@ -128,6 +133,7 @@ li.active a {
     padding-left: 325px;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columnthick47borderright{
@@ -138,6 +144,7 @@ li.active a {
     padding: 2%;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columnthrees{
@@ -149,6 +156,7 @@ li.active a {
     border-right: solid 1px #000;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columntwo{
@@ -159,6 +167,7 @@ li.active a {
     border-right: solid 1px #000;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columntwoborderless{
@@ -168,6 +177,7 @@ li.active a {
     padding: 1%;
     margin-bottom: 20px;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columnthreesborderless{
@@ -189,6 +199,7 @@ li.active a {
     border-left: solid 1px #000;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .Columnmiddle{
@@ -200,6 +211,7 @@ li.active a {
     vertical-align: top;
     margin-bottom: 20px ;
     vertical-align: top;
+    transition: 0.7s ;
 }
 
 .columnnobox{
@@ -207,8 +219,7 @@ li.active a {
     font-size: 14px;
     line-height: 20px;
     vertical-align: top;
-
-
+    transition: 0.7s ;
 }
 
 
