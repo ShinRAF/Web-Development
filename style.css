@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Domine');
+
 body{
     background-color: whitesmoke;  /* This sets the background colour to whitesmoke */ 
 }
 
 p{
+    font-family: 'Domine',serif;
     font-size: 14px;
     line-height: 20px;
     display: block; 
     text-align: justify; /* This makes sure that the text alignment in the content fill out the whole collumn */
 }
 h1{
-    font-family: 'Playfair Display', serif; 
-    font-weight: 400; /* This sets that font thickness */
+    font-family: 'Playfair Display SC',serif;
+    font-weight:200; /* This sets that font thickness */
     font-size: 80px; /* This sets the font size */ 
     float: none;
     margin: 0; 
@@ -24,7 +27,7 @@ header{
     font-weight: 400;
     font-size: 80px;
     float: left;
-    padding: 24px;
+    padding: 15px;
     border-right: solid 1px ;
     
 }
@@ -51,7 +54,8 @@ li {
 li a {
     text-decoration: none; /* This removes the underline on the hyperlinks */
     color: rgb(223, 17, 17); /* This sets the colour of the neutral link */
-    font: 20px/1 Helvetica, Verdana, sans-serif;
+    font-size: 18px ;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase ; /* This transfroms the text into uppercare */
     transition: all 0.5s ease; /* ? */
     text-align: right; /* This sets the text to the right */ 
@@ -70,6 +74,7 @@ li.active a {
 }
 
 .head{
+    font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 30px;
 }
@@ -81,8 +86,6 @@ li.active a {
     width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
     display: inline-block ;
     padding: 2%; 
-    vertical-align: top;
-    transition: all .7s;
     border-right: solid 1px #000;
     margin-bottom: 20px ;
 }
@@ -92,10 +95,9 @@ li.active a {
     width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
     display: inline-block ;
     padding: 2%; 
-    vertical-align: top;
-    transition: all .7s;
     border-left: solid 1px #000;
     margin-bottom: 20px ;
+    vertical-align: top;
 }
 
 .Columnthinborderless{
@@ -104,9 +106,8 @@ li.active a {
     width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
     display: inline-block ;
     padding: 2%; 
-    vertical-align: top;
-    transition: all .7s;
     margin-bottom: 20px ;
+    vertical-align: top;
 }
 
 .Columnthick47borderless{
@@ -115,10 +116,8 @@ li.active a {
     display: inline-block;
     width: 47%;
     padding: 2%;
-    vertical-align: top;
-    transition: all .7s;
     margin-bottom: 20px ;
-    
+    vertical-align: top;
 }
 
 .Columnthick47borderlessmiddle{
@@ -127,10 +126,8 @@ li.active a {
     width:47%;
     display: inline-block;
     padding-left: 325px;
-    vertical-align: top;
-    transition: all .7s;
     margin-bottom: 20px ;
-    
+    vertical-align: top;
 }
 
 .Columnthick47borderright{
@@ -139,10 +136,8 @@ li.active a {
     line-height: 20px;
     display: inline-block;
     padding: 2%;
-    vertical-align: top;
-    transition: all .7s;
     margin-bottom: 20px ;
-    
+    vertical-align: top;
 }
 
 .Columnthrees{
@@ -151,10 +146,9 @@ li.active a {
     width: 30%;
     display: inline-block;
     padding: 1%;
-    vertical-align: top;
-    transition: all .7s;
     border-right: solid 1px #000;
     margin-bottom: 20px ;
+    vertical-align: top;
 }
 
 .Columntwo{
@@ -162,10 +156,9 @@ li.active a {
     width: 47%;
     display: inline-block;
     padding: 1%;
-    vertical-align: top;
-    transition: all .7s;
     border-right: solid 1px #000;
     margin-bottom: 20px ;
+    vertical-align: top;
 }
 
 .Columntwoborderless{
@@ -173,8 +166,8 @@ li.active a {
     width: 48%;
     display: inline-block;
     padding: 1%;
-    transition: all .7s;
     margin-bottom: 20px;
+    vertical-align: top;
 }
 
 .Columnthreesborderless{
@@ -183,9 +176,8 @@ li.active a {
     width:30%;
     display: inline-block;
     padding: 1%;
-    vertical-align: top;
-    transition: all .7s;
     margin-bottom: 20px ;
+    vertical-align: top;
 }
 
 .Columnthinborderleft{
@@ -194,10 +186,9 @@ li.active a {
     width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
     display: inline-block ;
     padding: 2%; 
-    vertical-align: top;
-    transition: all .7s;
     border-left: solid 1px #000;
     margin-bottom: 20px ;
+    vertical-align: top;
 }
 
 .Columnmiddle{
@@ -207,14 +198,15 @@ li.active a {
     display: inline-block;
     padding: 2%;
     vertical-align: top;
-    transition: all .7s;
     margin-bottom: 20px ;
+    vertical-align: top;
 }
 
 .columnnobox{
     text-align: center;
     font-size: 14px;
     line-height: 20px;
+    vertical-align: top;
 
 
 }
@@ -222,7 +214,6 @@ li.active a {
 
 body img
 {
-    column-span: all;
     width: 100%;
     height: 125%;
 }
@@ -238,12 +229,11 @@ width: 100%;
     text-transform: uppercase ;
     text-decoration: none ; 
     color: rgb(223, 17, 17); 
-    font: 15px/1 Helvetica, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     line-height: 20px;
     width:10%;
     padding: 1%;
-    vertical-align: top;
-    transition: all .7s;
     float: right ;
 }
 
@@ -329,6 +319,7 @@ width: 100%;
     }
 
     header{
+        padding: 26px;
         font-size: 65px;
     }
     li a
@@ -383,7 +374,7 @@ width: 100%;
     }
 
     header{
-        padding: 30px;
+        padding: 25px;
         font-size: 55px;
     }
     li a
