@@ -252,9 +252,10 @@ width: 100%;
 .backtotop:hover
 {
     color: #aaa ;
+
 }
 
-.footer
+.footershape
 {
     text-align: center ;
     border-top: 1px #000 ;
@@ -262,12 +263,9 @@ width: 100%;
     border-bottom: 0px ;
     border-left: 0px ;
     border-style: solid ;
-}
-
-.footershape
-{
     display: inline-flex;
-    
+    width: 100%;
+    flex-direction: row-reverse;
 }
 
 @media (min-width:961px) and (max-width:1300px)
