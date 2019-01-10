@@ -235,6 +235,11 @@ iframe
 width: 100%;
     }
 
+.videowrapper
+    {
+        width: 50%;
+        display: inline-block
+            }
 
 .backtotop
 {
@@ -312,6 +317,11 @@ width: 100%;
         width: 20%;
     
     }
+    .videowrapper
+    {
+        width: 100%;
+    }
+
 }
 
 @media (min-width:501px) and (max-width:800px) 
@@ -386,6 +396,11 @@ width: 100%;
         border-style: none;
     }
 
+    .videowrapper
+    {
+        width: 100%;
+    }
+
 }
 
 @media (max-width:500px){
@@ -451,6 +466,11 @@ width: 100%;
         border-style: none;
     }
     .Columnthrees
+    {
+        width: 100%;
+    }
+
+    .videowrapper
     {
         width: 100%;
     }
