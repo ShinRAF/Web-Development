@@ -5,10 +5,10 @@ body{
 }
 
 p{
-    font-family: 'Domine',serif;
-    font-size: 14px;
-    line-height: 20px;
-    display: block; 
+    font-family: 'Domine',serif; /* This sets the font to this type */
+    font-size: 14px; /* This sets the font size */
+    line-height: 20px; /* this sets the line height */
+    display: block;  /* This sets the contents inside in a block shape box */
     text-align: justify; /* This makes sure that the text alignment in the content fill out the whole collumn */
 }
 h1{
