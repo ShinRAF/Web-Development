@@ -61,7 +61,7 @@ li a {
     text-align: right; /* This sets the text to the right */ 
 }
 li a:hover {
-    color: #aaa; /* This will change the colour of the font to this set colour when it's hovered over */
+    color: #000; /* This will change the colour of the font to this set colour when it's hovered over */
 }
 li.active a {
     color: black; 
@@ -256,7 +256,7 @@ width: 100%;
 
 .backtotop:hover
 {
-    color: #aaa ;
+    color: #111 ;
 
 }
 
