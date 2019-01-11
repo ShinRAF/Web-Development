@@ -15,40 +15,38 @@ h1{
     font-family: 'Playfair Display SC',serif;
     font-weight:200; /* This sets that font thickness */
     font-size: 80px; /* This sets the font size */ 
-    float: none;
-    margin: 0; 
+    float: none; /* this makes sures the heading stays where it is */
+    margin: 0; /* sets a 0 margin to keep things close */
     text-align: center; /* This sets the headings into the center of if its box/area */
-    padding: 1px; 
+    padding: 1px; /* for looks */
     border-top: 1px solid; /* Makes a line because of the "1px solid" on the borders */ 
 
 }
 header{
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-weight: 400; /* sets the text to be thick */
     font-size: 80px;
-    float: left;
+    float: left; /* keeps it on the box next to the navigation */
     padding: 15px;
-    border-right: solid 1px ;
+    border-right: solid 1px ; /* sets a line on the right */
     
 }
 
 nav{
-    border-bottom: solid 1px #111;
-    border-top: solid 1px #111; 
+    border-bottom: solid 1px #111; /* for looks */
+    border-top: solid 1px #111;  /* for looks */
 }
 
 ul {
-    display: inherit ; 
-    overflow: visible;
-    list-style-type: circle ;
+    display: inherit ; /* takes the value of the parent */
+  
 
 }
 
 li {
-    float:none ;
-    margin-right: 1px;
-    padding-left: 5px; 
-    overflow: hidden;
+    margin-right: 1px; /* for looks */
+    padding-left: 5px; /* for looks */
+    overflow: hidden; /* for looks */
 }
 
 li a {
@@ -64,20 +62,19 @@ li a:hover {
     color: #000; /* This will change the colour of the font to this set colour when it's hovered over */
 }
 li.active a {
-    color: black; 
-    font-weight: 525 ; 
+    color: black; /* This will change the colour of the font when hovered*/
 }
 
 .Content{
-    display: inline-block;
-    margin: 25px ;
+    display: inline-block; /* sets the position of the content */
+    margin: 25px ; /* Sets a small margin outside the content */
 }
 
 .head{
     font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 30px;
-    line-height: 25px;
+    line-height: 25px; /* for looks */
 }
 /* Columns */
 
@@ -86,11 +83,11 @@ li.active a {
     line-height: 20px;
     width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
     display: inline-block ;
-    padding: 2%; 
+    padding: 2%; /* for spacing and looks */
     border-right: solid 1px #000;
-    margin-bottom: 20px ;
-    transition: 0.7s ;
-    vertical-align: top ;
+    margin-bottom: 20px ; /* spacing */
+    transition: 0.7s ; /* makes it look nice when minimasing */
+    vertical-align: top ; /* keeps content straight and one above each other/ */
 }
 .Columnthinborderleft{
     font-size: 14px;
@@ -98,7 +95,7 @@ li.active a {
     width: 20%; /* This will set the width of the collumns of the top content to fit the page */ 
     display: inline-block ;
     padding: 2%; 
-    border-left: solid 1px #000;
+    border-left: solid 1px #000; /* some of these have none for looks */
     margin-bottom: 20px ;
     vertical-align: top;
     transition: 0.7s ;
@@ -226,25 +223,24 @@ li.active a {
 
 body img
 {
-    width: 100%;
-    height: 125%;
+    width: 100%; /* keeps image within it's contaitner and fills it out even when minimized */
 }
 
 iframe
     {
-width: 100%;
+width: 100%; /* keeps video size within its container and fills it out even when minimized */
     }
 
 .videowrapper
     {
-        width: 50%;
+        width: 50%; /* for spacing on some pages */
         display: inline-block
             }
 
 .backtotop
 {
-    text-transform: uppercase ;
-    text-decoration: none ; 
+    text-transform: uppercase ; /* trasfroms font case*/ 
+    text-decoration: none ; /* takes away underlines */
     color: rgb(223, 17, 17); 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -270,12 +266,13 @@ width: 100%;
     border-style: solid ;
     display: inline-flex;
     width: 100%;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /* attempt on flex box i dont know if it worked but it ended up looking nice so i kept it */
 }
 
 
 
-
+/* media queries sets up breakpoints for the web page , this will allow and change the properties when the website on a different width. (allows mobile phones and tablets  to have a nice interface). */
+/* most of these are resizing and removing some elements to make it looks nice in mobile and tablet */
 
 @media (min-width:961px) and (max-width:1300px)
 {
