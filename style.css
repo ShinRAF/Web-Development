@@ -413,6 +413,7 @@ width: 100%;
     {
         width: 100%;
     }
+
     ul{
         padding: 2px ;
         font-size: 90% ; 
@@ -472,6 +473,7 @@ width: 100%;
     .Columnthrees
     {
         width: 100%;
+        border-style:none;
     }
 
     .videowrapper
